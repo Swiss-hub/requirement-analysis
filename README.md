@@ -34,6 +34,30 @@ Requirement Analysis is the unsung hero of successful software development—it�
 - **Validation**: Confirm requirements align with business goals and are testable.
 - **Review**: Refine and update documentation based on feedback.
 
+## 🧱 Types of Requirements
+
+### ⚙️ Functional Requirements
+Functional requirements define **what the system should do**—the specific features and behaviors users interact with.
+
+#### Examples for the Booking Management System:
+- **User Registration & Authentication**: Allow customers and hotel managers to create accounts and log in securely.
+- **Hotel Listings**: Display available hotels with details like location, amenities, and pricing.
+- **Search & Booking**: Enable users to search for hotels and make reservations.
+- **Payment Integration**: Process transactions via third-party gateways (e.g., credit cards, online wallets).
+- **Booking Management**: Let users view, modify, or cancel bookings.
+- **Notifications**: Send alerts for booking confirmations, cancellations, and promotional offers.
+
+### 🛠️ Non-functional Requirements
+Non-functional requirements define **how the system performs**—its quality attributes and constraints.
+
+#### Examples for the Booking Management System:
+- **Performance**: APIs should respond within 2 seconds under normal load.
+- **Scalability**: System must handle high traffic using microservices and load balancers.
+- **Availability**: Ensure 99.9% uptime with distributed server clusters.
+- **Security**: Encrypt sensitive data and comply with PCI-DSS for payment processing.
+- **Reliability**: Use master-slave DB architecture and caching (Redis) to ensure consistent data access.
+- **Maintainability**: Modular design allows easy updates to individual services.
+- **Data Archival**: Use Cassandra for long-term storage of historical booking data.
 
 
 ## 📘 Project Overview
