@@ -87,8 +87,34 @@ Use Case Diagrams are a visual tool used in **Requirement Analysis** to represen
 
 ### 🖼️ Diagram
 ![Use Case Diagram for Booking System](alx-booking-uc.png)
+https://drive.google.com/file/d/1roZJOFzX4H-RGjUe4BOc1zIZmQvHEV2E/view?usp=sharing
 
 > The diagram above was created using Draw.io and exported as `alx-booking-uc.png`. It illustrates the interactions between system actors and core functionalities of the booking management system.
+
+## ✅ Acceptance Criteria
+
+Acceptance Criteria are the conditions that a feature or user story must meet to be considered complete. They serve as a shared understanding between developers, testers, and stakeholders, ensuring that the delivered functionality aligns with expectations.
+
+### 🔍 Why They Matter
+- **Clarify Expectations**: Everyone knows what “done” looks like.
+- **Enable Testing**: Criteria are testable, making QA more efficient.
+- **Prevent Scope Creep**: Keeps development focused and aligned.
+- **Improve Communication**: Bridges the gap between technical and non-technical teams.
+
+### 🛒 Example: Checkout Feature
+
+**User Story**:  
+_As a customer, I want to securely complete my hotel booking and make payment so that I can confirm my reservation._
+
+**Acceptance Criteria**:
+- The user must be able to review booking details before checkout.
+- The system must validate payment information before processing.
+- Payment must be processed via a secure third-party gateway.
+- Upon successful payment, a confirmation message and booking reference must be displayed.
+- A confirmation email must be sent to the user within 1 minute of successful checkout.
+- If payment fails, the user must be notified and given the option to retry or cancel.
+
+> These criteria ensure the Checkout feature is functional, secure, and user-friendly—meeting both business goals and user expectations.
 
 
 ## 📘 Project Overview
