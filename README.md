@@ -25,6 +25,16 @@ Requirement Analysis is the unsung hero of successful software development—it�
 - Helps prioritize features based on business value and technical feasibility.
 - Supports informed trade-offs when constraints arise.
 
+# 🔧 Key Activities in Requirement Analysis
+
+- **Elicitation**: Gather insights from stakeholders through interviews, surveys, or workshops.
+- **Analysis**: Evaluate requirements for clarity, feasibility, and completeness.
+- **Modeling**: Use diagrams to visualize system behavior and interactions.
+- **Specification**: Document functional and non-functional requirements clearly.
+- **Validation**: Confirm requirements align with business goals and are testable.
+- **Review**: Refine and update documentation based on feedback.
+
+
 
 ## 📘 Project Overview
 The Requirement Analysis Project simulates a real-world development scenario to help learners master the foundational phase of software development: requirement analysis. Through a series of structured tasks, participants will analyze, document, and visualize requirements for a **Booking Management System**, laying the groundwork for successful implementation.
