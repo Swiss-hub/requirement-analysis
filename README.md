@@ -59,6 +59,37 @@ Non-functional requirements define **how the system performs**—its quality att
 - **Maintainability**: Modular design allows easy updates to individual services.
 - **Data Archival**: Use Cassandra for long-term storage of historical booking data.
 
+## 🧾 Use Case Diagrams
+
+Use Case Diagrams are a visual tool used in **Requirement Analysis** to represent how different users (actors) interact with a system. They help identify system functionality from the user's perspective and clarify the scope of the system.
+
+### 🎯 Benefits
+- Provide a high-level overview of system behavior.
+- Help stakeholders understand user interactions.
+- Clarify system boundaries and responsibilities.
+- Support communication between technical and non-technical teams.
+
+### 👥 Actors
+- **Customer**: Searches hotels, makes bookings, views booking history.
+- **Hotel Manager**: Manages hotel listings, updates availability.
+- **Payment Gateway**: Processes payments securely.
+- **Notification System**: Sends booking confirmations and alerts.
+
+### 📌 Use Cases
+- Search Hotels
+- View Hotel Details
+- Make Booking
+- Cancel Booking
+- Manage Listings
+- Update Availability
+- Process Payment
+- Send Notifications
+
+### 🖼️ Diagram
+![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+> The diagram above was created using Draw.io and exported as `alx-booking-uc.png`. It illustrates the interactions between system actors and core functionalities of the booking management system.
+
 
 ## 📘 Project Overview
 The Requirement Analysis Project simulates a real-world development scenario to help learners master the foundational phase of software development: requirement analysis. Through a series of structured tasks, participants will analyze, document, and visualize requirements for a **Booking Management System**, laying the groundwork for successful implementation.
